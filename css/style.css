@@ -1,36 +1,41 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     font-size: 16px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.main{
+
+.main {
     background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
     background-repeat: no-repeat;
     background-size: contain;
     margin-bottom: 185px;
 }
-.container{
+
+.container {
     height: 100%;
     max-width: 1180px;
     margin: 0 auto;
-   display: flex;
-   justify-content: space-between;
-   /* align-items: center; */
-  
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
 }
-.left{
+
+.left {
     padding-bottom: 170px;
     flex: 0 0 580px;
 }
+
 /* .left{
     padding-top: 170px;
     padding-bottom: 170px;
 } */
 
-.main-title{
+.main-title {
     margin-bottom: 40px;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 120px;
@@ -39,7 +44,8 @@ a{
     color: #FAF9F9;
     text-transform: uppercase;
 }
-.time-work{
+
+.time-work {
     display: inline-block;
     margin-top: 170px;
     margin-bottom: 10px;
@@ -49,7 +55,8 @@ a{
     text-transform: uppercase;
     color: #FBB731;
 }
-.info{
+
+.info {
     margin-bottom: 42px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -58,13 +65,15 @@ a{
     line-height: 140%;
     color: #DEDEDE;
 }
-.right{
+
+.right {
     flex: 0 0 432px;
     background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
     min-height: 100%;
     position: relative;
 }
-.btn{
+
+.btn {
     display: inline-block;
     padding: 20px 45px;
     border-radius: 5px;
@@ -77,23 +86,29 @@ a{
     text-transform: uppercase;
     color: #1E2F40;
 }
-.main img{
+
+.main img {
     position: absolute;
     height: 861px;
     left: -220px;
 }
-.promo{
+
+.promo {
     margin-bottom: 185px;
 }
-.promo-left, .promo-right{
+
+.promo-left,
+.promo-right {
     flex: 0 0 580px;
     min-height: 395px;
 }
-.promo-left{
-  background: url(../img/bacon-cheese-burger-with-beef-patty-tomato-onion-.png)0 0/contain no-repeat ;
-  padding: 116px 50px;
+
+.promo-left {
+    background: url(../img/bacon-cheese-burger-with-beef-patty-tomato-onion-.png)0 0/contain no-repeat;
+    padding: 116px 50px;
 }
-.sale{
+
+.sale {
     display: inline-block;
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -106,7 +121,8 @@ a{
     border-radius: 14px;
     padding: 7px 18px 5px 18px;
 }
-.cost{
+
+.cost {
     margin-top: 3px;
     font-family: 'Nunito Sans';
     font-weight: 900;
@@ -115,7 +131,8 @@ a{
     text-transform: uppercase;
     color: #FFFFFF
 }
-.discription{
+
+.discription {
     margin-top: 8px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -124,11 +141,13 @@ a{
     line-height: 24px;
     color: #FAF9F9;
 }
-.promo-right{
+
+.promo-right {
     padding: 120px 50px;
     background: url(../img/fresh-tasty-burger-bg.png) 0 0/contain no-repeat;
 }
-.free{
+
+.free {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 700;
@@ -136,34 +155,40 @@ a{
     line-height: 56px;
     color: #FFFFFF;
 }
-.promo-right .btn{
+
+.promo-right .btn {
     margin-top: 20px;
 }
-.footer{
+
+.footer {
     background: #1E2F40;
     padding-top: 117px;
     padding-bottom: 117px;
 }
-.footer .container{
+
+.footer .container {
     display: block;
 }
-.nav-list{
+
+.nav-list {
     display: flex;
     justify-content: space-between;
     list-style: none;
     gap: 140px;
     padding: 0;
 }
-.nav-list ul{
+
+.nav-list ul {
     list-style: none;
     padding: 0;
 }
 
-.icon{
-   width: 63px;
-   
+.icon {
+    width: 63px;
+
 }
-.nav-title{
+
+.nav-title {
     font-family: 'Nunito Sans';
     font-weight: 800;
     font-size: 20px;
@@ -172,21 +197,26 @@ a{
     color: #FFFFFF;
     margin-bottom: 12px;
 }
-.link-item a, .contact-item{
+
+.link-item a,
+.contact-item {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #DEDEDE;
-   }
-   .link-item{
+}
+
+.link-item {
     margin-bottom: 9px;
-   }
-   .contact-item{
+}
+
+.contact-item {
     margin-bottom: 12px;
-   }
-.contact-item span{
+}
+
+.contact-item span {
     display: block;
     font-family: 'Open Sans';
     font-style: normal;
@@ -195,7 +225,8 @@ a{
     line-height: 24px;
     color: #FAF9F9
 }
-.phone-item a{
+
+.phone-item a {
     display: block;
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -204,4 +235,9 @@ a{
     line-height: 38px;
     text-transform: uppercase;
     color: #FBB731;
+} 
+@media (max-weight= 600px){
+    .container{
+        max-width: 100%;
+    }
 }
