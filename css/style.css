@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 185px;
+}
+.container{
+    height: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+  
+}
+.left{
+    padding-bottom: 170px;
+    flex: 0 0 580px;
+}
+/* .left{
+    padding-top: 170px;
+    padding-bottom: 170px;
+} */
+
+.main-title{
+    margin-bottom: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 140px;
+    color: #FAF9F9;
+    text-transform: uppercase;
+}
+.time-work{
+    display: inline-block;
+    margin-top: 170px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FBB731;
+}
+.info{
+    margin-bottom: 42px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 140%;
+    color: #DEDEDE;
+}
+.right{
+    flex: 0 0 432px;
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+    min-height: 100%;
+    position: relative;
+}
+.btn{
+    display: inline-block;
+    padding: 20px 45px;
+    border-radius: 5px;
+    background: #FBB731;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2F40;
+}
+.main img{
+    position: absolute;
+    height: 861px;
+    left: -220px;
+}
+.promo{
+    margin-bottom: 185px;
+}
+.promo-left, .promo-right{
+    flex: 0 0 580px;
+    min-height: 395px;
+}
+.promo-left{
+  background: url(../img/bacon-cheese-burger-with-beef-patty-tomato-onion-.png)0 0/contain no-repeat ;
+  padding: 116px 50px;
+}
+.sale{
+    display: inline-block;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #F37335;
+    border-radius: 14px;
+    padding: 7px 18px 5px 18px;
+}
+.cost{
+    margin-top: 3px;
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 76px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+.discription{
+    margin-top: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FAF9F9;
+}
+.promo-right{
+    padding: 120px 50px;
+    background: url(../img/fresh-tasty-burger-bg.png) 0 0/contain no-repeat;
+}
+.free{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.promo-right .btn{
+    margin-top: 20px;
+}
+.footer{
+    background: #1E2F40;
+    padding-top: 117px;
+    padding-bottom: 117px;
+}
+.footer .container{
+    display: block;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 140px;
+    padding: 0;
+}
+.nav-list ul{
+    list-style: none;
+    padding: 0;
+}
+
+.icon{
+   width: 63px;
+   
+}
+.nav-title{
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.link-item a, .contact-item{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #DEDEDE;
+   }
+   .link-item{
+    margin-bottom: 9px;
+   }
+   .contact-item{
+    margin-bottom: 12px;
+   }
+.contact-item span{
+    display: block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FAF9F9
+}
+.phone-item a{
+    display: block;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FBB731;
+}
